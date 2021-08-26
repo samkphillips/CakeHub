@@ -3,13 +3,14 @@ import React from 'react'
 function SubmitRecipes() {
   const handleSubmit = (e) => {
     e.preventDefault()
+    console.log(e)
     alert(`Thank you for your submission`)
   }
   return (
-    <div>
+    <div className="background">
       <h1>Submit Your Recipe</h1>
       <h4>Click the submit button below.</h4>
-      <form id="usrform" className="form-container" onSubmit={handleSubmit}>
+      <form className="form-container" onSubmit={handleSubmit}>
         <p>Please enter the name of your recipe.</p>
         <input name="title" type="" />
         <p>Include recipe URL.</p>

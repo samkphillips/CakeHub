@@ -2,19 +2,43 @@
   margin: 0;
   padding: 0;
 }
+ .background {
+  background-color:#a5d1d3 ;
+}
 
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #75B7BA;
+  color: grey;
+  padding: 1rem;
+}
+a {
+  text-decoration: none;
+  color:#DCCC9F;
+  font-size: 20px ;
+  font-weight: 600;
+
+}
+.navlink  {
+list-style: none;
+margin: 1rem;
+}
 
 input {
   width: 450px;
-  padding: 0 0 200px 0;
-  margin: 5px;
+  padding: 0 0 150px 0;
+  margin: 20px;
 }
 
 button {
   display: flex;
+  color:hotpink;
 }
 
 p{
+  padding: 10px 0px 0px 0px;
   font-weight: 600;
 }
 
