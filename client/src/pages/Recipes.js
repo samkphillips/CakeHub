@@ -8,7 +8,6 @@ const Recipes = () => {
   const getRecipes = async () => {
     const res = await axios.get('http://localhost:3001/api/recipes')
     setRecipes(res.data.recipes)
-    console.log(res.data.recipes)
   }
 
   useEffect(() => {
@@ -16,8 +15,8 @@ const Recipes = () => {
   }, [])
 
   return (
-    <div>
-      <div className="recipes">
+    <div className="recipes">
+      <div>
         <h2 className="center">Recipes</h2>
         <section className="recipe-container">
           {recipes.map((recipe) => (
