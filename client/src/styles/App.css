@@ -3,6 +3,26 @@
   padding: 0;
 }
 
+
+input {
+  width: 450px;
+  padding: 0 0 200px 0;
+  margin: 5px;
+}
+
+button {
+  display: flex;
+}
+
+p{
+  font-weight: 600;
+}
+
+.form-container {
+  padding: 50px;
+  margin: 25px;
+}
+
 .recipes {
   width: 100%;
 }
