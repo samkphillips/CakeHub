@@ -50,6 +50,7 @@ button {
   color:hotpink;
 }
 
+
 p{
   padding: 10px 0px 0px 0px;
   font-weight: 600;
@@ -58,30 +59,4 @@ p{
 .form-container {
   padding: 50px;
   margin: 25px;
-}
-
-.recipes {
-  width: 100%;
-}
-
-.recipe-container {
-  padding: 10px;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 320px);
-  justify-content: center;
-}
-
-.card {
-  max-width: 300px;
-  max-height: 380px;
-  border-radius: 4px;
-  width: auto;
-}
-
-.image {
-  width: auto;
-}
-
-.information {
-  padding: 5px;
 }
