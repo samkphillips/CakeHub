@@ -2,3 +2,29 @@
   margin: 0;
   padding: 0;
 }
+
+.recipes {
+  width: 100%;
+}
+
+.recipe-container {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 320px);
+  justify-content: center;
+}
+
+.card {
+  max-width: 300px;
+  max-height: 380px;
+  border-radius: 4px;
+  width: auto;
+}
+
+.image {
+  width: auto;
+}
+
+.information {
+  padding: 5px;
+}
