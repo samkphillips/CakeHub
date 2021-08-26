@@ -4,9 +4,15 @@ export default function Header() {
   return (
     <header>
       <nav>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/recipes">Recipes</NavLink>
-        <NavLink to="/submitrecipes">Submit Recipes</NavLink>
+        <NavLink to="/" className="navlinks">
+          Home
+        </NavLink>
+        <NavLink to="/recipes" className="navlinks">
+          Recipes
+        </NavLink>
+        <NavLink to="/submitrecipes" className="navlinks">
+          Submit Recipes
+        </NavLink>
       </nav>
     </header>
   )
