@@ -3,8 +3,9 @@ import React from 'react'
 const Home = () => {
   return (
     <div>
-      <h1>Welcome to CakeHub!</h1>
-      <p>
+      <h1 className="cake-font">CakeHub</h1>
+
+      <p className="centerP">
         This is our collection of some of the best dessert recipes on the
         planet. You can browse through our recipes, and if you have a recipe
         you'd like to share you can add your recipe as well.
