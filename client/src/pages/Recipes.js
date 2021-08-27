@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react'
 import RecipeCard from '../components/RecipeCard'
 import axios from 'axios'
+import { BASE_URL } from '../globals'
 
 const Recipes = () => {
   const [recipes, setRecipes] = useState([])
 
   const getRecipes = async () => {
-    const res = await axios.get('http://localhost:3001/api/recipes')
+    const res = await axios.get(`${BASE_URL}/recipes`)
     setRecipes(res.data.recipes)
   }
 

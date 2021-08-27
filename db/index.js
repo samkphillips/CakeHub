@@ -1,6 +1,9 @@
 const mongoose = require('mongoose')
 
-let MONGODB_URI = 'mongodb://127.0.0.1:27017/cakeHubDatabase'
+let MONGODB_URI =
+  process.env.NODE_ENV === 'production'
+    ? process.env.MONGODB_URI
+    : 'mongodb://127.0.0.1:27017/cakeHubDatabase'
 
 mongoose
   .connect(MONGODB_URI, { useUnifiedTopology: true, useNewUrlParser: true })

@@ -1,5 +1,6 @@
 import React from 'react'
 import axios from 'axios'
+import { BASE_URL } from '../globals'
 
 function SubmitRecipes() {
   const parseForm = (e) => {
@@ -20,7 +21,7 @@ function SubmitRecipes() {
 
     axios({
       method: 'post',
-      url: 'http://localhost:3001/api/submitrecipe',
+      url: `${BASE_URL}/submitrecipe`,
       data: parsedForm,
       headers: { 'Content-Type': 'application/json' }
     })
