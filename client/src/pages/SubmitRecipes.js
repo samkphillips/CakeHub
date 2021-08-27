@@ -36,7 +36,7 @@ function SubmitRecipes() {
 
   return (
     <div className="background">
-      <h1>Submit Your Recipe</h1>
+      <h1 className="submit-title">Submit Your Recipe</h1>
       <h4>Click the submit button below.</h4>
       <form className="form-container" onSubmit={handleSubmit}>
         <p>Please enter the name of your recipe.</p>
@@ -53,7 +53,9 @@ function SubmitRecipes() {
         <input name="steps" />
         <p>Please add your name!</p>
         <input name="authorName" />
-        <button type="submit">Submit</button>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
       </form>
     </div>
   )

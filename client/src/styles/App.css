@@ -6,6 +6,23 @@
 .background {
   background-color: #a5d1d3;
 }
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 100vw;
+}
+.submit-title , h4 {
+  text-align: center;
+}
+
+.home-picture {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
 .cake-font {
   font-family: 'Courgette', cursive;
   font-size: 100px;
@@ -44,19 +61,25 @@ input {
   margin: 20px;
 }
 
+.numbers {
+  width: 350px;
+  height: 30px;
+  padding: 0;
+}
 button {
-  display: flex;
   color: hotpink;
 }
 
-p {
+.centerP {
   padding: 10px 0px 0px 0px;
   font-weight: 600;
+  text-align: center;
 }
 
 .form-container {
   padding: 50px;
   margin: 25px;
+  text-align: center;
 }
 
 .img {
@@ -73,13 +96,17 @@ p {
   width: 300px;
   height: 300px;
   text-align: center;
+  background-color:#e9d398 
 }
 
 .card {
-  margin: 20px;
+  margin: 10px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  background-color: #e9d398 ;
+  border:#e9d398 solid 8px;
+  border-radius: 8px;
 }
 
 .recipe-container {
