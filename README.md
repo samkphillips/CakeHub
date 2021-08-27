@@ -1,3 +1,5 @@
+![Logo](./screenshots/logo.png)
+
 # CakeHub
 
 ## Date: 8/25/2021
@@ -18,10 +20,23 @@ Our app, CakeHub, is a dessert recipe site in which users can view various recip
 - MongoDB
 - Mongoose
 - Express
+- Node
 
 **_Getting Started_**
 
+You can find the site at [CakeHub](https://polar-beyond-25356.herokuapp.com/) and browse to your heart's content.
+
 **_Screenshots_**
+
+#### Browsing Recipes
+
+![Recipe_Page](./screenshots/rec.png)
+
+#### Submitting a new recipe
+
+![Submission_Page](./screenshots/sub.png)
+
+**_Process Screenshots_**
 
 ##### Component Heirarchy Diagram
 
@@ -31,5 +46,14 @@ Our app, CakeHub, is a dessert recipe site in which users can view various recip
 
 ![ERD](./screenshots/erd.png)
 
-##### Credits
-[Google](https://fonts.google.com/)
+**_Future Updates_**
+
+- [ ] Search for individual recipes
+- [ ] Filter by recipe type
+- [ ] Filter by cooking duration
+- [ ] Always: add more recipes!
+- [ ] User profiles
+
+**_Credits_**
+
+[Google Font](https://fonts.google.com/)
