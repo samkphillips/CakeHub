@@ -30,3 +30,6 @@ Our app, CakeHub, is a dessert recipe site in which users can view various recip
 ##### Entity Relationship Diagram
 
 ![ERD](./screenshots/erd.png)
+
+##### Credits
+[Google](https://fonts.google.com/)
