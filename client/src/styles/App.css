@@ -1,9 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 * {
   margin: 0;
   padding: 0;
 }
 .background {
   background-color: #a5d1d3;
+}
+.cake-font {
+  font-family: 'Courgette', cursive;
+  font-size: 100px;
+  text-align: center;
+  color: #e2c166;
+  text-shadow:   -2px -2px 0 #75B7BA,
+  0px -2px 0 #75B7BA,
+  2px -2px 0 #75B7BA,
+  -2px 2px 0 #75B7BA,
+  2px 2px 0 #75B7BA,
+  2px 2px 0 #75B7BA;
 }
 
 nav {
